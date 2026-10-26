@@ -1,0 +1,12 @@
+# data (download and generate it yourself, see README)
+data/*
+!data/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
